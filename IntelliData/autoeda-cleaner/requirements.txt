@@ -1,0 +1,29 @@
+# --- Core app ---
+streamlit[auth]==1.60.0
+python-dotenv==1.0.1
+
+# --- Data processing ---
+pandas==3.0.2
+numpy==1.26.4
+openpyxl==3.1.5          # Excel read/write
+pyarrow==17.0.0           # Parquet read/write
+
+# --- Machine learning ---
+scikit-learn==1.5.1
+
+# --- Visualization ---
+plotly==5.24.0
+statsmodels==0.14.2   # required by plotly's trendline="ols" feature
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# --- AI (Gemini & Groq) ---
+google-genai==1.74.0
+groq==1.7.0
+
+# --- Reports ---
+reportlab==4.2.2
+jinja2==3.1.4
+
+# --- Testing ---
+pytest==8.3.2

@@ -1,0 +1,36 @@
+# Environment
+.env
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data & generated output (keep folders, ignore contents)
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+reports/*
+!reports/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# OS / editor / tooling
+.DS_Store
+.vscode/
+.idea/
+.vs/
+.impeccable/
+.impeccable-critique-body.md
